@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+}
+
+#container{
+	min-height: 100%;
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#header{
+	height: 200px;
+	background-color: grey;
+	width: 100%;
+}
+
+
+.headerimg{
+	float: left;
+	height: 200px;
+
+}
+
+.nav{
+	display: inline-block;
+	margin-bottom: -100px;
+}
+
+.navlinks:hover{
+	color: blue;
+}
+
+
+.navlinks{
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	padding-top: 100px;
+}
+
+body{
+	background: url("http://goo.gl/wQ9Gnz");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#body{
+	padding-bottom: 100px;
+}
+
+#footer{
+	background-color: grey;
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
