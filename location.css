@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
 #location{
 	background: url("http://goo.gl/H7QDG7");
@@ -16,10 +17,11 @@
 	background-color: rgba(0,0,0,0.5);
 	padding-left: 10px;
 	padding-right: 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 p{
