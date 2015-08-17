@@ -3,10 +3,61 @@ html{
 	background-size: 100% 100%;
 }
 
-#menuoptions{
+#menuoptions{ /*side bar menu options*/
 	float: left;
 	height: 100%;
 	width: 200px;
 	background-color: rgba(0,0,0,0.5);
 	position: absolute;
+	color: white;
+	padding-top: 100px;
+	margin-top: -21px;
+}
+
+#menuheader{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+.menuselections{
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.menuselections:hover{
+	color: red;
+}
+
+#menuitems{
+	width: 800px;
+	height: 500px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	margin-left: 300px;
+}
+
+.sand{
+	width: 300px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+#sandwiches{
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.items{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.menu-items{
+	display: none;
 }
