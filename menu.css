@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
 html{
 	background: url("http://goo.gl/oPKWRC");
 	background-size: 100% 100%;
@@ -31,11 +33,11 @@ html{
 }
 
 #menuitems{
-	width: 800px;
-	height: 1750px;
+	margin: auto;
+	width: 55%;
+	height: 1870px;
 	background-color: rgba(0,0,0,0.5);
 	color: white;
-	margin-left: 300px;
 }
 
 .sand, .sal, .desserts, .bev{
@@ -43,16 +45,27 @@ html{
 	display: inline-block;
 	margin-left: 50px;
 	margin-top: 20px;
+	font-family: 'Arimo', sans-serif;
 }
 
-#sandwiches, #salad, #dessert, #bev{
+#takeout, #sandwiches, #salad, #dessert, #bev{
 	text-align: center;
 	font-size: 25px;
 	text-decoration: underline;
+	font-family: 'Arimo', sans-serif;
 }
 
 p{
 	text-align: center;
+}
+
+#takeout{
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+#sandwiches{
+	margin-top: 20px;
 }
 
 #salad, #dessert, #bev{

@@ -28,6 +28,9 @@ a{
 
 .nav{
 	display: inline-block;
+	margin: auto;
+	width: 20%;
+	text-align: center;
 }
 
 .navlinks:hover{
@@ -35,9 +38,6 @@ a{
 }
 
 .navlinks{
-	margin-left: 70px;
-	margin-right: 60px;
-	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 }
